@@ -1,0 +1,17 @@
+{
+  "name": "assignment3-employee-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Employee CRUD backend for the supplied frontend build",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js",
+    "check": "node --check app.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.19.0"
+  }
+}

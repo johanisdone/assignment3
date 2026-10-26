@@ -1,0 +1,2 @@
+# Preserve the supplied frontend build byte-for-byte on every platform.
+dist/** -text
